@@ -1,5 +1,6 @@
 import { storiesOf } from '@storybook/html'
-import emailTemplate from '../components/template.mjml'
+import htmlTemplate from '../components/template.html'
 
+console.log(htmlTemplate)
 storiesOf('email', module)
-  .add('with text', () => emailTemplate)
+  .add('with text', () => htmlTemplate)

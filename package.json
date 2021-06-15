@@ -1,19 +1,17 @@
 {
-  "name": "storybook-ejs-example",
-  "version": "1.0.0",
-  "license": "MIT",
-  "scripts": {
-    "storybook": "start-storybook"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.14.5",
-    "@storybook/html": "^6.2.9",
-    "babel-loader": "^8.2.2",
-    "ejs-compiled-loader": "^3.1.0",
-    "ignore-loader": "^0.1.2",
-    "webpack-mjml-loader": "^1.1.0"
-  },
-  "dependencies": {
-    "mjml": "^4.9.3"
-  }
+    "name": "storybook-ejs-example",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "storybook": "node ./src/components/template.js && start-storybook"
+    },
+    "devDependencies": {
+        "@storybook/html": "^6.2.9",
+        "fs": "0.0.1-security",
+        "prettier": "^2.3.1"
+    },
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "mjml": "^4.9.3"
+    }
 }
